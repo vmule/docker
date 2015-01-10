@@ -1,3 +1,3 @@
 # docker 
 
-Dockerfiles collection
+Dockerfiles collection.
