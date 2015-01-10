@@ -1,4 +1,4 @@
-FROM vmule/base:0.1
+FROM vmule/base
 
 MAINTAINER Vito Mule <mulevito@gmail.com>
 
