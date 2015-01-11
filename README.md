@@ -5,7 +5,7 @@ Dockerfiles collection.
 
 #Puppet containerized environment
 
-Collection of container to create a Puppet Master/Agent testing environment.
+Collections of Debian based containers to create a Puppet Master/Agent testing environment.
 
 #Usage
 
