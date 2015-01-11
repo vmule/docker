@@ -15,7 +15,9 @@ MODULE_PATH_CONTAINER='/etc/puppet/modules'
 
 #  Start puppetmaster container
 
-docker run -d --name puppetmaster -ti -v $MANIFESTS_PATH_LOCAL:$MANIFESTS_PATH_CONTAINER -v $MODULE_PATH_LOCAL:$MODULE_PATH_CONTAINER \
+docker run -d --name puppetmaster -ti \
+-v $MANIFESTS_PATH_LOCAL:$MANIFESTS_PATH_CONTAINER \
+-v $MODULE_PATH_LOCAL:$MODULE_PATH_CONTAINER \
 vmule/puppetmaster > /dev/null 2>&1 && sleep 5
 
 echo "Starting puppetmaster container.."
