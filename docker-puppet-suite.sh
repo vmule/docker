@@ -5,9 +5,18 @@
 # Put your modules to be tested in /var/test/puppet/modules
 
 
-# Start puppetmaster container
+# Declaring Volumes to be mounted
 
-docker run -d --name puppetmaster -ti vmule/puppetmaster > /dev/null 2>&1 && sleep 5
+MANIFESTS_PATH_LOCAL='/var/tmp/test/puppet/manifests'
+MANIFESTS_PATH_CONTAINER='/etc/puppet/manifests'
+
+MODULE_PATH_LOCAL='/var/tmp/test/puppet/modules'
+MODULE_PATH_CONTAINER='/etc/puppet/modules' 
+
+#  Start puppetmaster container
+
+docker run -d --name puppetmaster -ti -v $MANIFESTS_PATH_LOCAL:$MANIFESTS_PATH_CONTAINER -v $MODULE_PATH_LOCAL:$MODULE_PATH_CONTAINER \
+vmule/puppetmaster > /dev/null 2>&1 && sleep 5
 
 echo "Starting puppetmaster container.."
 
