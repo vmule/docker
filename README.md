@@ -10,6 +10,7 @@ Collection of container to create a Puppet Master/Agent testing environment.
 #Usage
 
 Put your manifests locally in /var/test/puppet/manifests
+
 Put your modules locally in /var/test/puppet/modules
 
 #Start it with the command:
