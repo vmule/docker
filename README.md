@@ -1,18 +1,18 @@
 ## docker 
 
-#Dockerfiles collection.
+# Dockerfiles collection.
 
 
 ## Puppet containerized environment
 
-#Collection of container to create a Puppet Master/Agent testing environment.
+# Collection of container to create a Puppet Master/Agent testing environment.
 
 ## Usage
 
-#Put your manifests locally in /var/test/puppet/manifests
-#Put your modules locally in /var/test/puppet/modules
+# Put your manifests locally in /var/test/puppet/manifests
+# Put your modules locally in /var/test/puppet/modules
 
-#Start it with the command:
+# Start it with the command:
 
 $ sudo run ./docker-puppet-suite.sh
 
