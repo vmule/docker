@@ -23,6 +23,7 @@ $ sudo run ./docker-puppet-suite.sh
 ./docker-puppet-suite.sh
 Starting puppetmaster container..
 Starting puppetagent container..
+Starting Puppet Agent run on puppetagent container..
 Info: Creating a new SSL key for puppetagent
 Info: Caching certificate for ca
 Info: csr_attributes file loading from /etc/puppet/csr_attributes.yaml
