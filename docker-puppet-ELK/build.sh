@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t vmule/puppet-elk .
+docker build -t vmule/puppet-lek .
