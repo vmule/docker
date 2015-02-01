@@ -54,7 +54,7 @@ ADD run.sh /usr/local/bin/run
 
 ADD puppetlogs.conf /etc/logstash/conf.d/
 
-RUN chmod +x /usr/local/bin/run
+RUN chmod 755 /usr/local/bin/run
 
 EXPOSE 80 9200 514 9292 9300
 
