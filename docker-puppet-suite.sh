@@ -31,7 +31,7 @@ echo "Starting Puppet Agent run on puppetagent container.."
 
 docker run --rm --name puppetagent --link puppetmaster:puppet -ti vmule/puppetagent
 
-# Stop and eemove puppetmaster container 
+# Stop and remove puppetmaster container 
 
 echo "Stopping puppetmaster container.."
 docker stop puppetmaster > /dev/null 2>&1

@@ -1,3 +1,3 @@
-FROM debian:wheezy
+FROM debian:bullseye
 
 MAINTAINER Vito Mule <mulevito@gmail.com>
