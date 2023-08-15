@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:latest
 
 RUN apk --no-cache add logrotate tini \
     && mkdir -p /logs \
