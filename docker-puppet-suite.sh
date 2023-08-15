@@ -40,9 +40,3 @@ echo "Removing puppetmaster container.."
 docker rm puppetmaster > /dev/null 2>&1
 
 exit 0
-
-
-
-
-
-
